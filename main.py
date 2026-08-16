@@ -25,7 +25,7 @@ print(find_missing_value)
 print(find_duplicate_value)
 
 # Drop columns
-read_csv.drop(["MARRIAGE","EDUCATION"],axis=1,inplace=True)
+read_csv.drop(["ID","MARRIAGE","EDUCATION"],axis=1,inplace=True)
 
 
 # Split data for traing and testing
